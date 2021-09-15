@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.CarDatabaseApp.ui.main.MainFragment"
+        android:label="CarDatabase"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_addCarFragment"
+            app:destination="@id/addCarFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_updateFragment"
+            app:destination="@id/updateFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_preferencesFragment"
+            app:destination="@id/preferencesFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_preferenceActivity"
+            app:destination="@id/preferenceActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCarFragment"
+        android:name="com.example.CarDatabaseApp.ui.main.addcar.AddCarFragment"
+        android:label="Add Car to Database"
+        app:launchSingleTop="true"
+        tools:layout="@layout/fragment_add_car" >
+        <action
+            android:id="@+id/action_addCarFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.example.CarDatabaseApp.ui.main.update.UpdateFragment"
+        android:label="Update Car in Database"
+        app:launchSingleTop="true"
+        tools:layout="@layout/fragment_update" >
+        <action
+            android:id="@+id/action_updateFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <argument
+            android:name="item"
+            app:argType="com.example.CarDatabaseApp.room.Car" />
+    </fragment>
+    <fragment
+        android:id="@+id/preferencesFragment"
+        android:name="com.example.CarDatabaseApp.ui.main.settings.PreferencesFragment"
+        android:label="Options" >
+        <action
+            android:id="@+id/action_preferencesFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/preferenceActivity"
+        android:name="com.example.CarDatabaseApp.ui.main.settings.PreferenceActivity"
+        android:label="Options"
+        tools:layout="@layout/activity_preference" />
+</navigation>

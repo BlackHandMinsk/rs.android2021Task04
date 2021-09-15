@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/37544/.gradle/caches/transforms-3/ddc32651925386b210f8399ee04bf02d/transformed/appcompat-1.3.1/res/drawable/abc_item_background_holo_dark.xml" value="0.14375" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/CarDatabaseApp/app/src/main/res/layout-v24/main_fragment.xml" value="0.176" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/CarDatabaseApp/app/src/main/res/layout/fragment_add_car.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/CarDatabaseApp/app/src/main/res/layout/fragment_start.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/CarDatabaseApp/app/src/main/res/layout/main_activity.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/CarDatabaseApp/app/src/main/res/layout/main_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/CarDatabaseApp/app/src/main/res/layout/note_list_item.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/CarDatabaseApp/app/src/main/res/layout/settings_fragment.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/CarDatabaseApp/app/src/main/res/menu/options_menu.xml" value="0.264" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/CarDatabaseApp/app/src/main/res/xml/settings.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/Notes/app/src/main/res/layout/main_activity.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/Notes/app/src/main/res/layout/main_fragment.xml" value="0.5005202913631633" />
+        <entry key="..\:/Users/37544/AndroidStudioProjects/Notes/app/src/main/res/layout/note_list_item.xml" value="0.536" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/drawable/ic_baseline_add.xml" value="0.26256410256410256" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/layout/activity_preference.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/layout/fragment_add_car.xml" value="0.2" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/layout/fragment_preference.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/layout/fragment_update.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/layout/main_activity.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/layout/main_fragment.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/layout/note_list_item.xml" value="0.4" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/menu/main_menu.xml" value="0.264" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/menu/menu_delete.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/menu/pref_action_menu.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/37544/Downloads/finalfinal/CarDatabaseApp-master/app/src/main/res/xml/settings.xml" value="0.12760416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

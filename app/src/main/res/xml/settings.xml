@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:key="preference_sort"
+        android:icon="@drawable/ic_baseline_sort"
+        android:entries="@array/entries"
+        android:entryValues="@array/entriesValues"
+        android:defaultValue="Price"
+        android:title="Sort">
+    </ListPreference>
+    <ListPreference
+        android:key="preference_filter"
+        android:icon="@drawable/ic_baseline_filter"
+        android:entries="@array/filterEntries"
+        android:entryValues="@array/filterEntriesValues"
+        android:defaultValue="id"
+        android:title="Filter">
+    </ListPreference>
+    <SwitchPreference
+        android:icon="@drawable/ic_baseline_done"
+        android:switchTextOff="Cursor"
+        android:switchTextOn="Room"
+        android:summaryOff="Cursor"
+        android:summaryOn="Room"
+        android:key="database"
+        android:title="Database Handler">
+    </SwitchPreference>
+</PreferenceScreen>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sorts_values">sorts_values
+        <item>not_sort</item>
+        <item>sort_by_brand</item>
+        <item>sort_by_model</item>
+        <item>sort_by_price</item>
+    </string-array>
+    <string-array name="entries">entries
+        <item>Not sort</item>
+        <item>Sort by brand</item>
+        <item>Sort by model</item>
+        <item>Sort by price</item>
+    </string-array>
+    <string-array name="entriesValues">entriesValues
+        <item>id</item>
+        <item>Brand</item>
+        <item>Model</item>
+        <item>Price</item>
+    </string-array>
+
+    <string-array name="filterEntries">
+        <item>All Cars</item>
+        <item>Only Cheap</item>
+        <item>Only Expensive</item>
+    </string-array>
+    <string-array name="filterEntriesValues">
+        <item>id</item>
+        <item>Price &#60; 10000</item>
+        <item>Price &#62; 9999</item>//young
+    </string-array>
+</resources>
