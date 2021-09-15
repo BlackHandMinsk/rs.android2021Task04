@@ -2,13 +2,8 @@ package com.example.CarDatabaseApp.ui.main.settings
 
 import android.content.Intent
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.CarDatabaseApp.MainActivity
 import com.example.CarDatabaseApp.R
 import com.example.CarDatabaseApp.databinding.ActivityPreferenceBinding

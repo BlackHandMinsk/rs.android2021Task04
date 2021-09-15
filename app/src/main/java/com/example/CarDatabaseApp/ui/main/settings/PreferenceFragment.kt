@@ -2,7 +2,6 @@ package com.example.CarDatabaseApp.ui.main.settings
 
 import android.os.Bundle
 import android.view.*
-import androidx.fragment.app.Fragment
 import androidx.preference.PreferenceFragmentCompat
 import com.example.CarDatabaseApp.R
 

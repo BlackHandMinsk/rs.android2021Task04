@@ -3,8 +3,6 @@ package com.example.CarDatabaseApp.ui.main
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.findNavController
-import androidx.recyclerview.widget.ItemTouchHelper
-import androidx.recyclerview.widget.ItemTouchUIUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.CarDatabaseApp.databinding.NoteListItemBinding

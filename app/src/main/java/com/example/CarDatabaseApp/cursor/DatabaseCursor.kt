@@ -1,6 +1,6 @@
 package com.example.CarDatabaseApp.cursor
 
-import android.app.Person
+
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
@@ -13,10 +13,7 @@ import com.example.CarDatabaseApp.room.Car
 import com.example.CarDatabaseApp.room.CarDao
 import kotlinx.coroutines.Dispatchers
 
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.MutableSharedFlow
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.flow
+
 import kotlinx.coroutines.withContext
 import java.sql.SQLException
 import java.util.concurrent.Executors

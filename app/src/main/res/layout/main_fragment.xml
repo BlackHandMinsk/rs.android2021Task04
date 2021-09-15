@@ -36,4 +36,35 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.958" />
 
+    <TextView
+        android:id="@+id/sort_text_view"
+        android:layout_width="137dp"
+        android:layout_height="30dp"
+        android:background="@color/purple_500"
+        android:text=""
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/filter_text_View"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/filter_text_View"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:background="@color/purple_500"
+        android:text=""
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/database_text_view" />
+
+    <TextView
+        android:id="@+id/database_text_view"
+        android:layout_width="137dp"
+        android:layout_height="30dp"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
