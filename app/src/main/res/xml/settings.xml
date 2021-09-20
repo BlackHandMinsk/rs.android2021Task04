@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ListPreference
         android:key="preference_sort"
         android:icon="@drawable/ic_baseline_sort"
         android:entries="@array/entries"
         android:entryValues="@array/entriesValues"
-        android:defaultValue="Price"
-        android:title="Sort">
+        android:defaultValue="@string/pref_price_def_value"
+        android:title="@string/pref_title_sort">
     </ListPreference>
     <ListPreference
         android:key="preference_filter"
         android:icon="@drawable/ic_baseline_filter"
         android:entries="@array/filterEntries"
         android:entryValues="@array/filterEntriesValues"
-        android:defaultValue="id"
-        android:title="Filter">
+        android:defaultValue="@string/pref_title_def_value"
+        android:title="@string/pref_title_filter">
     </ListPreference>
     <SwitchPreference
         android:icon="@drawable/ic_baseline_done"
-        android:switchTextOff="Cursor"
-        android:switchTextOn="Room"
-        android:summaryOff="Cursor"
-        android:summaryOn="Room"
+        android:switchTextOff="@string/pref_database_switch_text_off"
+        android:switchTextOn="@string/pref_database_switch_text_on"
+        android:summaryOff="@string/pref_database_text_summary_off"
+        android:summaryOn="@string/pref_database_text_summary_on"
         android:key="database"
-        android:title="Database Handler">
+        android:title="@string/pref_title_database">
     </SwitchPreference>
 </PreferenceScreen>

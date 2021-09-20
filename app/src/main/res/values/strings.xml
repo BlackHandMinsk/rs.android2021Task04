@@ -17,4 +17,17 @@
     <string name="add_price_hint">Add price</string>
     <string name="add_car_to_database_btn_text">ADD CAR TO DATABASE</string>
     <string name="update_car_in_database_btn">UPDATE CAR IN DATABASE</string>
+    <string name="menu_delete_del_btn">Delete</string>
+    <string name="pref_title_sort">Sort</string>
+    <string name="pref_title_filter">Filter</string>
+    <string name="pref_title_database">Database Handler</string>
+    <string name="pref_price_def_value">Price</string>
+    <string name="pref_title_def_value">id</string>
+    <string name="pref_database_switch_text_off">Cursor</string>
+    <string name="pref_database_switch_text_on">Room</string>
+    <string name="pref_database_text_summary_off">Cursor</string>
+    <string name="pref_database_text_summary_on">Room</string>
+    <string name="rv_item_text_brand">Brand:</string>
+    <string name="rv_item_text_model">Model:</string>
+    <string name="rv_item_text_price">Price:</string>
 </resources>
